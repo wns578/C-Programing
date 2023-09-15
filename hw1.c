@@ -1,6 +1,12 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 int main(void)
 {
-	printf("C프로그래밍1 1주차 과제\n이름: 송준혁\n학번: %d",202310939);
+	int n1, n2;
+	printf("Input two integers: ");
+	scanf("%d %d", &n1, &n2);
+	printf("%d & %d = %d\n", n1, n2, n1 & n2);
+	printf("%d | %d = %d\n", n1, n2, n1 | n2);
+	printf("%d ^ %d = %d\n", n1, n2, n1 ^ n2);
 	return 0;
 }
